@@ -1,12 +1,45 @@
-h1 {
-    color: darkcyan;
-    font-family: 'Montserrat', sans-serif;
+section {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #118e34ff;
 }
-h2 {
-    color: darkcyan;
-    font-family: 'Montserrat', sans-serif;
+#encabezado {
+    font-size: 1.2em;
+    line-height: 1.2em;
 }
-h3 {
-    color: darkcyan;
-    font-family: 'Montserrat', sans-serif;
+#datospersonales {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #118e34ff;
+
+}
+.items {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #118e34ff;
+}
+.contenido {
+    font-family: 'Roboto', sans-serif;
+    color: #118e34ff;
+}
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#piedepágina {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: #118e34ff;
 }
