@@ -5,10 +5,12 @@ section {
     margin-bottom: 50px;
     color: #118e34ff;
 }
+
 #encabezado {
     font-size: 1.2em;
     line-height: 1.2em;
 }
+
 #datospersonales {
     font-family: 'Roboto', sans-serif;
     padding-top: 50px;
@@ -45,9 +47,6 @@ img {
 }
 
 #piedepágina {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    margin-top: 20px;
     font-size: 1.2em;
     line-height: 1.2em;
     font-weight: bold;

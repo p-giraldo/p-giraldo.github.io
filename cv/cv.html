@@ -10,11 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Oswald&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
+
 </body>
 <div class="bg-success p-2 text-dark bg-opacity-10">
 <section>
-  <h2>Paula A. Giraldo J.</h2>
-  <p id="encabezado">Diseñadora Industrial<br>
+  <h2 id="nombre" onmouseover="mouseOver()" onmouseout="mouseOut()">Paula A. Giraldo J.</h2>
+    <p id="encabezado">Diseñadora Industrial<br>
       UX Designer | UX Research<br>
       Master en Tecnologías Urbanas Sostenibles</p>
 </section>
@@ -24,12 +25,12 @@
     <div class="col">
       <p id="datospersonales"> E-MAIL: paulagj2000@gmail.com <br>
           TELÉFONO: 11-58708034<br>
-          LINKEDIN: https://www.linkedin.com/in/paula-giraldo-jimenez/
+          <a id="datospersonales" href="https://www.linkedin.com/in/paula-giraldo-jimenez/" target="_blank">LINKEDIN: https://www.linkedin.com/in/paula-giraldo-jimenez/</a>
       </p>
       </div>
     <div class="col">
-      <img src="foto.png" alt="fotografía Paula_cv" height="200px">
-      </div>
+    <img id="fotografía" src="foto.png" alt="fotografía Paula_cv" height="200px" onmouseover="mouseOver()">
+    </div>
   </div>
 </div>
 
@@ -104,11 +105,13 @@
           </div>
       </div>
   </div>
+  <section>
+    <a id="piedepágina" href="https://www.behance.net/paugiraldo" target="_blank">Behance: https://www.behance.net/paugiraldo</a><br>
+    <a id="piedepágina" href="https://www.ecoproductosecopro.com" target="_blank">WEB: www.ecoproductosecopro.com</a>
+  </section>
 
-  <p id="piedepágina">Behance: https://www.behance.net/paugiraldo<br>
-      WEB: www.ecoproductosecopro.com
-  </p>
-
+  <script src="cv.js"></script>
+ 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </div>
 <body>
