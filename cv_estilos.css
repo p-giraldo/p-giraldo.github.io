@@ -1,0 +1,54 @@
+section {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #118e34ff;
+}
+
+#encabezado {
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+#datospersonales {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #118e34ff;
+}
+
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.institucion {
+    font-weight: bold;
+}
+
+.ubicacion {
+    font-style: italic;
+}
+
+.items {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #118e34ff;
+}
+.contenido {
+    font-family: 'Roboto', sans-serif;
+    color: #118e34ff;
+}
+
+#piedepágina {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: bold;
+    color: #118e34ff;
+}
